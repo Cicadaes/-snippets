@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "name": "接口转发",
+    "description": "代理请求、接口转发",
+    "permissions": [
+        "tabs",
+        "background",
+        "*://localhost/*",
+        "webRequest",
+        "webRequestBlocking" 
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
